@@ -41,8 +41,8 @@ function result() {
   yItems=randomValueFromArray(insertY);
   zItems=randomValueFromArray(insertZ);
   newStory=newStory.replace(':insertx:',xItems);
-  newStory=newStory.replace(':inserty:',xItems);
-  newStory=newStory.replace(':insertz:',xItems);
+  newStory=newStory.replace(':inserty:',yItems);
+  newStory=newStory.replace(':insertz:',zItems);
   newStory=newStory.replace(':insertx:',xItems);
 
 
